@@ -1,0 +1,136 @@
+nav {
+  position: relative; }
+
+.down {
+  position: relative; }
+  .down .show_nav {
+    margin: 0 auto;
+    width: 1005px;
+    top: 430px;
+    left: 50%;
+    padding-top: 430px; }
+    .down .show_nav a {
+      float: left;
+      margin-right: 4px;
+      margin-bottom: 4px; }
+    .down .show_nav .btn_music {
+      width: 122px;
+      height: 200px;
+      background: url("../../imgAll/img_show/btn_music.jpg") no-repeat; }
+    .down .show_nav .btn_music:hover {
+      background: url("../../imgAll/img_show/active_music.jpg") no-repeat; }
+    .down .show_nav .nav_cen {
+      float: left;
+      width: 502px;
+      height: 204px; }
+      .down .show_nav .nav_cen .btn_video {
+        width: 298px;
+        height: 98px;
+        background: url("../../imgAll/img_show/active_video.jpg") no-repeat; }
+      .down .show_nav .nav_cen .btn_video:hover {
+        background: url("../../imgAll/img_show/active_video.jpg") no-repeat; }
+      .down .show_nav .nav_cen .btn_pain {
+        width: 196px;
+        height: 98px;
+        background: url("../../imgAll/img_show/btn_pain.jpg") no-repeat; }
+      .down .show_nav .nav_cen .btn_pain:hover {
+        background: url("../../imgAll/img_show/active_pain.jpg") no-repeat; }
+      .down .show_nav .nav_cen .btn_team {
+        width: 498px;
+        height: 98px;
+        background: url("../../imgAll/img_show/btn_team.jpg") no-repeat; }
+      .down .show_nav .nav_cen .btn_team:hover {
+        background: url("../../imgAll/img_show/active_team.jpg") no-repeat; }
+    .down .show_nav .btn_wall {
+      width: 246px;
+      height: 200px;
+      background: url("../../imgAll/img_show/btn_wall.jpg") no-repeat; }
+    .down .show_nav .btn_wall:hover {
+      background: url("../../imgAll/img_show/active_wall.jpg") no-repeat; }
+    .down .show_nav .btn_pic {
+      width: 122px;
+      height: 200px;
+      background: url("../../imgAll/img_show/btn_picture.jpg") no-repeat; }
+    .down .show_nav .btn_pic:hover {
+      background: url("../../imgAll/img_show/active_picture.jpg") no-repeat; }
+  .down .show_video {
+    width: 1000px;
+    margin: 20px auto; }
+    .down .show_video .video_img {
+      display: block;
+      float: left;
+      cursor: pointer;
+      width: 498px;
+      height: 366px;
+      vertical-align: baseline;
+      overflow: hidden;
+      position: relative;
+      margin-left: 2px; }
+      .down .show_video .video_img img {
+        width: 100%;
+        height: 100%; }
+      .down .show_video .video_img h3 {
+        line-height: 40px;
+        text-indent: 50px;
+        color: #ead49a;
+        font-size: 14px;
+        background: url("../../imgAll/img_show/te_play2.png") no-repeat 15px center;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+      .down .show_video .video_img span {
+        position: absolute;
+        top: 326px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url(../img/media/te_play.png) no-repeat center center;
+        background: rgba(0, 0, 0, 0.5) url("../../imgAll/img_show/te_play.png") no-repeat center center;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s; }
+    .down .show_video .video_img:hover span {
+      top: 0; }
+  .down .show_picture {
+    width: 1000px;
+    margin: 20px auto 40px;
+    display: none; }
+
+.video_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .video_box .video_ct {
+    position: fixed;
+    width: 960px;
+    height: 540px;
+    border: 1px solid #ead49a;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: -480px;
+    z-index: 19999;
+    background-color: #000;
+    overflow: hidden; }
+    .video_box .video_ct video {
+      width: 100%;
+      height: 100%; }
+  .video_box .close_btn {
+    position: fixed;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: 444px;
+    background: url("../../imgAll/img_show/close.jpg");
+    z-index: 200000; }
+
+/*# sourceMappingURL=show.css.map */

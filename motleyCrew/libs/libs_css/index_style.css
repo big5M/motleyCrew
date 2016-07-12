@@ -1,0 +1,257 @@
+@charset "UTF-8";
+html, body {
+  width: 100%;
+  height: 100%; }
+  html .section, body .section {
+    width: 100%;
+    height: 100%;
+    padding: 0; }
+
+.page1, .page2, .page3 {
+    
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.change_over {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.page1 header {
+  padding-top: 50px; }
+.page1 .slogan {
+  -webkit-animation-delay: 0.75s;
+  margin-top: 200px;
+  text-align: center; }
+.page1 .button {
+  -webkit-animation-delay: 1.5s;
+  margin-top: 140px;
+  height: 40px; }
+  .page1 .button .button_regular, .page1 .button .button_regular::after {
+    transition: all 0.1s 0.3s linear;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    margin: 0px;
+    padding: 17px 40px;
+    text-align: center;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid red; }
+  .page1 .button .button_regular::after {
+    transition: all 0.3s 0s linear;
+    content: "最新游戏";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transform-origin: -25% 50%;
+    -moz-transform-origin: -25% 50%;
+    -webkit-transform-origin: -25% 50%;
+    -o-transform-origin: -25% 50%;
+    -ms-transform-origin: -25% 50%;
+    transform: rotate3d(0, 0, 1, 45deg);
+    -moz-transform: rotate3d(0, 0, 1, 45deg);
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    -o-transform: rotate3d(0, 0, 1, 45deg);
+    -ms-transform: rotate3d(0, 0, 1, 45deg); }
+  .page1 .button .button_regular {
+    background: red; }
+  .page1 .button .button_regular:hover {
+    transition: all 0.2s 0s linear;
+    background: none;
+    color: rgba(255, 255, 255, 0); }
+  .page1 .button .button_regular:hover::after {
+    color: red;
+    transition: all 0.3s 0s linear;
+    transform: rotate3d(0, 0, 1, 0deg);
+    -moz-transform: rotate3d(0, 0, 1, 0deg);
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    -o-transform: rotate3d(0, 0, 1, 0deg);
+    -ms-transform: rotate3d(0, 0, 1, 0deg); }
+.page1 .guide {
+  -webkit-animation-delay: 2.25s; }
+  .page1 .guide h3 {
+    margin-top: 100px; }
+    .page1 .guide h3 img {
+      width: 200px; }
+
+.page2 {
+  font-family: 'Josefin Sans', sans-serif;
+  background: rgba(255, 255, 255, 0.8); }
+  .page2 .content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 100px 150px; }
+  .page2 h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 2px; }
+  .page2 h2::after, .page2 h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 1px;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #151515; }
+  .page2 h2::after {
+    width: 1px;
+    height: 50px;
+    bottom: -65px;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%); }
+  .page2 h2 {
+    position: relative;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 5px;
+    font-weight: 500; }
+    .page2 h2 strong {
+      color: red; }
+  .page2 .introduce_company {
+    width: 70%;
+    margin: 100px auto;
+    text-align: left; }
+    .page2 .introduce_company .content_main {
+      padding-right: 50px;
+      box-sizing: border-box; }
+      .page2 .introduce_company .content_main :first-child {
+        margin-top: 2em;
+        border-left: 2px solid red;
+        height: 27px;
+        line-height: 27px;
+        margin-bottom: 1em; }
+      .page2 .introduce_company .content_main p {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        margin: 0px;
+        line-height: 28px;
+        letter-spacing: normal;
+        color: #151515; }
+
+.page3 {
+  font-family: 'Josefin Sans', sans-serif;
+  background: rgba(255, 255, 255, 0.8); }
+  .page3 .leave_massage {
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    font-size: 1.2em; }
+    .page3 .leave_massage p {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      text-align: center; }
+  .page3 .content {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 100px 150px; }
+  .page3 h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 2px; }
+  .page3 h2::after, .page3 h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 140px;
+    height: 1px;
+    bottom: -15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: #151515; }
+  .page3 h2::after {
+    width: 1px;
+    height: 50px;
+    bottom: -65px;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%); }
+  .page3 h2 {
+    position: relative;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 5px;
+    font-weight: 500; }
+    .page3 h2 strong {
+      color: red; }
+  .page3 .contact {
+    margin-top: 7em;
+    text-align: center; }
+    .page3 .contact .addres, .page3 .contact .phones, .page3 .contact .email {
+      margin-bottom: 1em; }
+      .page3 .contact .addres ::after, .page3 .contact .phones ::after, .page3 .contact .email ::after {
+        content: '';
+        position: absolute;
+        width: 3px;
+        height: 15px;
+        top: 120px;
+        left: 50%;
+        margin-left: -1.5px;
+        background: red;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%); }
+      .page3 .contact .addres .icon-container, .page3 .contact .phones .icon-container, .page3 .contact .email .icon-container {
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        line-height: 140px;
+        background: #f7001f;
+        border-radius: 100%;
+        box-sizing: border-box; }
+        .page3 .contact .addres .icon-container i, .page3 .contact .phones .icon-container i, .page3 .contact .email .icon-container i {
+          font-size: 3.5em;
+          background: red;
+          color: white; }
+      .page3 .contact .addres .text-container, .page3 .contact .phones .text-container, .page3 .contact .email .text-container {
+        margin-top: 2em; }
+        .page3 .contact .addres .text-container .desc p, .page3 .contact .phones .text-container .desc p, .page3 .contact .email .text-container .desc p {
+          font-weight: 500;
+          font-size: 14px;
+          margin: 0px;
+          line-height: 28px;
+          letter-spacing: normal;
+          color: #151515; }
+
+/*# sourceMappingURL=index_style.css.map */
